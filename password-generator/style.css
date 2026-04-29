@@ -1,0 +1,83 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+
+}
+.container{
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 0 0 10px black;
+    text-align: center;
+    width:400px;
+    background-color: white;
+
+
+
+}
+.header{
+    background-color: blue;
+    color:  white;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    
+}
+.display{
+    margin-bottom: 5px;
+    position: relative;
+
+}
+#pass-input{
+    width: 75%;
+    border:none;
+    outline: none;
+    padding: 15px;
+
+    font-size: 1.5rem;
+    font-weight: bold;
+
+}
+#copy{
+    position: absolute;
+    top:15px;
+    right: 30px;
+    background-color: blue;
+    color: white;
+    border: none;
+    font-size: 1rem;
+    width:20%;
+    font-weight: bold;
+    border-radius: 5px;
+
+}
+.setting{
+    display: flex;
+    justify-content: space-around;
+    padding: 0 15px 7.5px 15px;
+    font-weight: bold;
+    font-size: large;
+
+
+
+}
+#gen{
+    display: block;
+    width: 100%;
+   padding: 10px;
+   border: none;
+   background-color: blue;
+   color: white;
+   font-size: 1.2rem;
+   font-weight: bold;
+
+}
+
